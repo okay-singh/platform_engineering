@@ -5,6 +5,7 @@ metadata:
   description: Python app
   annotations:
     github.com/project-slug: okay-singh/platform_engineering
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: development
