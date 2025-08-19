@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: python-app
+  name: platform_engineering
   description: Python app
   annotations:
     github.com/project-slug: okay-singh/platform_engineering
