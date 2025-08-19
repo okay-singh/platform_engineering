@@ -3,7 +3,6 @@ kind: Group
 metadata:
   name: development
   description: Development team group
-  description: Team A
 spec:
   type: team
   profile:
