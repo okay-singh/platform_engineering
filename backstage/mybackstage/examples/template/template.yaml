@@ -31,9 +31,7 @@ spec:
           title: Repository Location
           type: string
           ui:field: RepoUrlPicker
-          ui:options:
-            allowedHosts:
-              - github.com
+
 
   # These steps are executed in the scaffolder backend, using data that we gathered
   # via the parameters above.
