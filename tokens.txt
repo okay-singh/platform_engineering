@@ -3,3 +3,10 @@ Port forward
 kubectl port-forward svc/ingress-nginx-controller -n ingress-nginx 8080:80
 
 HooM8j74qtkSgYxe
+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
+
+
+helm upgrade --install --namespace actions-runner-system --create-namespace\
+  --set=authSecret.create=true\
+  --set=authSecret.github_token="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"\
+  --wait actions-runner-controller actions-runner-controller/actions-runner-controller
